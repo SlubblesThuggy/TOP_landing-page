@@ -1,3 +1,19 @@
 body {
     font-family: Roboto, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.header,
+.footer,
+.section.one {
+    background-color: #1F2937;
+}
+
+.section.three {
+    background-color: #E5E7EB;
+}
+
+.section.four div {
+    background-color: #3882F6;
 }
