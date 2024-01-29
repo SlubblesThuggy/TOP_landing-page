@@ -4,6 +4,10 @@ body {
     flex-direction: column;
 }
 
+.section {
+    padding: 0 64px;
+}
+
 .header,
 .footer,
 .section.one {
@@ -16,4 +20,28 @@ body {
 
 .section.four div {
     background-color: #3882F6;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 64px;
+}
+
+.header .logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header .links {
+    display: flex;
+    list-style: none;
+    gap: 16px;
+    margin: 0;
+}
+
+.header .links a {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
 }
