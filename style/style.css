@@ -1,11 +1,8 @@
 body {
     font-family: Roboto, Verdana, sans-serif;
+
     display: flex;
     flex-direction: column;
-}
-
-.section {
-    padding: 0 64px;
 }
 
 .header,
@@ -22,10 +19,12 @@ body {
     background-color: #3882F6;
 }
 
+
+
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 16px 64px;
+    padding: 8px 128px;
 }
 
 .header .logo {
@@ -44,4 +43,49 @@ body {
     font-size: 18px;
     color: #E5E7EB;
     text-decoration: none;
+}
+
+
+
+.section.one {
+    display: flex;
+    padding: 64px 128px;
+}
+
+.section.one .left-side {
+    flex: 1;
+}
+
+.section.one .title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8
+}
+
+.section.one .subtext {
+    margin: -8px 0 8px 0;
+
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.section.one button {
+    border: none;
+    border-radius: 4px;
+
+    padding: 4px 16px;
+
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+.section.one .right-side {
+    flex: 1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: gray;
+    color: white;
 }
