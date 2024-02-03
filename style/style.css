@@ -11,10 +11,6 @@ body {
     background-color: #1F2937;
 }
 
-.section.three {
-    background-color: #E5E7EB;
-}
-
 .section.four div {
     background-color: #3882F6;
 }
@@ -128,4 +124,29 @@ body {
 
     border: 4px solid #3882F6;
     border-radius: 8px;
+}
+
+
+
+.section.three {
+    background-color: #E5E7EB;
+
+    padding: 64px 256px;
+}
+
+.section.three .quote {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.section.three .quote-author {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1F2937;
+
+    text-align: right;
+
+    margin-right: 64px;
 }
